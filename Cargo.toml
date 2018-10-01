@@ -1,0 +1,9 @@
+[package]
+name = "algorithms"
+version = "0.1.0"
+authors = ["VitalyR <vitalyankh@gmail.com>"]
+edition = "2018"
+lisence = "GPL-2.0-or-later"
+description = "A library for most common algorithms"
+
+[dependencies]
