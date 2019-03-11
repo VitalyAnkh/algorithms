@@ -40,5 +40,22 @@ mod tests {
             assert!(ve2[i] <= ve2[i + 1]);
         }
     }
+
+    #[test]
+    fn merge_sort(){
+        //descending
+        let mut ve1 = vec![6, 5, 4, 3, 2, 1];
+        let result1=crate::sorting::merge_sort(&ve1);
+        for i in 0..result1.len() - 1 {
+            assert!(result1[i] <= result1[i + 1]);
+        }
+
+        //pre-sorted
+        let mut ve2 = vec![1, 2, 3, 4, 5, 6];
+        let result2=crate::sorting::merge_sort(&ve2);
+        for i in 0..result2.len() - 1 {
+            assert!(result2[i] <=result2[i + 1]);
+        }
+    }
 }
 
