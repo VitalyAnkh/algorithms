@@ -4,7 +4,6 @@ version = "0.2.1"
 authors = ["VitalyR <vitalyankh@gmail.com>"]
 edition = "2018"
 license = "MIT"
-documentation="docs.rs"
 description = "A library for most common algorithms"
 
 [dependencies]
