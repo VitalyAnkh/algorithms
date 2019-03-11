@@ -11,5 +11,5 @@ mod tests {
 }
 pub mod search;
 
-pub mod sort;
+pub mod sorting;
 
